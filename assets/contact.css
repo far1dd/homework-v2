@@ -1,0 +1,190 @@
+body {
+    background: url(https://previews.123rf.com/images/ookasan/ookasan1612/ookasan161200108/67530209-grunge-white-wood-texture-of-wooden-boards-floor.jpg);
+}
+
+.maindiv {
+    width: 100%;
+    border-bottom: 2px solid rgb(203, 203, 203);
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    height: 100%;
+    width: 250px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.aboutli {
+    margin-right: 15px;
+}
+
+.portfolioli {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contactli {
+    margin-left: 15px;
+}
+
+/*------------*/
+
+section {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.left-side {
+    width: 63%;
+    height: 645px;
+
+}
+
+.right-side {
+    width: 37%;
+    height: 645px;
+
+}
+
+.left-board {
+    background-color: white;
+    width: 650px;
+    height: 610px;
+    margin-top: 35px;
+    margin-left: 240px;
+
+}
+
+.right-board {
+    width: 260px;
+    height: 190px;
+    margin-top: 40px;
+    margin-left: 23px;
+    background-color: white;
+    border: 0.5px solid rgb(210, 210, 210);
+}
+
+.right-top {
+    color: #4aaaa5;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.right-top hr {
+    border: 1px solid rgb(224, 224, 224);
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.right-bottom {
+    width: 200px;
+    height: 60px;
+    margin-left: 27px;
+}
+
+.right-bottom ul {
+    display: flex;
+}
+
+.github {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkedin {
+    margin-right: 5px;
+}
+
+.left-board h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.left-board hr {
+    border: 1.5px solid rgb(215, 215, 215);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+label {
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 580px;
+    height: 30px;
+    border: 0.5px solid gray;
+}
+
+textarea {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 580px;
+    height: 190px;
+    border: 0.5px solid gray;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+}
+
+.foot {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(103, 103, 103);
+    border-top: 8px solid #4aaaa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    font-size: 13px;
+    margin-top: 30px;
+}
